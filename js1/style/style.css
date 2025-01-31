@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-height: 200%;
+}
+
+body{
+    background: linear-gradient(to bottom, blue, black) no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: auto;
+}
+
+#menuBar {
+    position: sticky;
+    top: 10px;
+    left: 0%;
+    z-index: 10;
+    max-width: 1200px;
+    padding: 10px;
+    
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: content;
+    flex-direction:row;
+}
+
+.button{
+    margin: 15px;
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    text-align: center;
+    align-content: center;
+    background-color: #514effb3;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 15px;
+    width: auto;
+    
+}

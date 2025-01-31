@@ -1,0 +1,25 @@
+
+.container{
+    position: relative;
+}
+
+#random{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.link{
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 20px;
+
+    position: absolute;
+    bottom: 14px;
+    right: 23%;
+    min-width: 40px;
+    min-height: 20px;
+}
